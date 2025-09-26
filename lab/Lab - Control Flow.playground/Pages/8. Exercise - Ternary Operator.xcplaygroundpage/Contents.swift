@@ -5,25 +5,30 @@
  
  > ternary operator is a REQUIREMENT. Example is on page 58.
  */
+/*
 let number1 = 14
 let number2 = 25
+*/
 /*
  let number1 = 30
  let number2 = 25
 */
-/*
 let number1 = 25
 let number2 = 25
-*/
 
-var largest: Int
+
+var largest: Int = number1 > number2 ? number1 : number2
+
+/*
 if number1 > number2 {
     largest = number1
 } else {
     largest = number2
 }
+*/
 
 print(largest)
+print("25, 30, 25")
 //print("The result for set 1 was:")
 //print()
 

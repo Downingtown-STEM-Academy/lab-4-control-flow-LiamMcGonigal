@@ -15,6 +15,17 @@
  
 */
 let currentAverage = 88
-
+switch currentAverage{
+case 90...100:
+    print("You have an A")
+case 80...89:
+    print("You have a B")
+case 70...79:
+    print("You have a C")
+case 60...69:
+    print("You have a D")
+default:
+    print("You have an F")
+}//end of switch
 
 //: [Previous](@previous)  |  page 7 of 9  |  [Next](@next)
